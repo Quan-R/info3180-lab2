@@ -26,6 +26,7 @@ img {
 .bottom {
     background: linear-gradient(345deg, rgba(230,170,107,1) 0%, rgba(226,139,86,1) 90%);
     padding: 1em;
+    display: grid;
 }
 
 #tdiv{

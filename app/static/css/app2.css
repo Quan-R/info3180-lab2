@@ -1,0 +1,60 @@
+body {
+    padding-top: 5rem;
+    width: max-content;
+    position: center;
+}
+
+img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.page {
+    display: grid;
+    grid-template-rows: 63% 37%;
+    text-align: center;
+    
+}
+
+.top {
+    background: linear-gradient(243deg, rgba(98,1,1,1) 0%, rgba(122,0,0,1) 0%, rgba(255,70,1,1) 60%);
+    padding: 1em;
+    color: white;
+}
+
+.bottom {
+    background: linear-gradient(345deg, rgba(230,170,107,1) 0%, rgba(226,139,86,1) 90%);
+    padding: 1em;
+}
+
+#tdiv{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.followbtn {
+    box-shadow: 0px 10px 14px -7px #a61805;
+    background:linear-gradient(to bottom, #e67a53 5%, #c78348 100%);
+    background-color:#e67a53;
+    border-radius:6px;
+    border:2px solid #b32a27;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size:15px;
+    font-weight:bold;
+    padding:7px 7px;
+    text-decoration:none;
+    text-shadow:0px 1px 4px #d96120;
+}
+.followbtn:hover {
+    background:linear-gradient(to bottom, #c78348 5%, #e67a53 100%);
+    background-color:#c78348;
+}
+.followbtn:active {
+    position:relative;
+    top:1px;
+}

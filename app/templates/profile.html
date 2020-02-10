@@ -1,0 +1,42 @@
+{% extends 'base.html' %} 
+
+{% block css %} 
+
+    <link href="{{ url_for('static', filename='css/app2.css') }}" rel="stylesheet" />
+
+{% endblock%}
+
+{% block main %}
+
+<div class="page">
+    <div class="top">
+
+        <img id="pic" src="{{ url_for('static', filename='img.jpg') }}" />
+        <h2 id="name">Shequan Ricketts</h2>
+        <h6 class="uname">@_shequan </h6>
+        <h6 id="location">Montego Bay, Jamaica</h6>
+        <h6 id="joined">{{ date }}</h6>
+    </div>
+    <div class="bottom">
+        <p id="bio">I am a 22 year old Information Technology major at the University of the West Indies.</p>
+        <div id="tdiv">
+            <table >
+                <tr>
+                <th>10</th>
+                <th>153</th>
+                <th>846</th>
+                </tr>
+                <tr>
+                <td>Posts</td>
+                <td>Following</td>
+                <td>Followers</td>
+                </tr>
+            </table>
+        </div>
+            <button type="button" class="followbtn">Follow</button>
+    </div>
+    
+</div>
+
+{% endblock %}
+
